@@ -14,8 +14,6 @@ In this classic arcade game, you have a Player and Enemies (Bugs). The goal of t
 
 At a minimum I needed to implement the Player and Enemy classes found inside *app.js*, using Object-Oriented JavaScript. 
 
-Once implemented, I then needed to instatiate them. In other words, I needed to create a new Player object and several new Enemies objects and place them in an array called allEnemies.
-
 ## Folders and files
 This repository contains css, images, and js folders, as well as an index.html and a README.md file. 
 The *css* folder contains a *style.css* file.
