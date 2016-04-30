@@ -10,11 +10,17 @@ Using these tools, I needed to add a number of entities, including player charac
 
 ### Basic functionality of the game
 
-In this classic arcade game, you have a Player and Enemies (Bugs). The goal of the player is to reach the water without colliding into any one of the enemies. 
+In this classic arcade game, you have a Player and Enemies (Bugs). 
 
-The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. 
+The goal of the player is to reach the water without colliding into any one of the enemies. 
 
-Once the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the water the game is won.
+The player can move left, right, up and down. 
+
+The enemies move in varying speeds on the paved block portion of the scene. 
+
+Once the player collides with an enemy, the game is reset and the player moves back to the start square. 
+
+Once the player reaches the water the game is won.
 
 ### Minimum tasks that needed to be completed to meet expectations:
 
@@ -37,6 +43,7 @@ More specifically, in the **Enemy** class, I needed to implement the following f
 	- Loading the image by setting this.sprite to the appropriate image in the image folder
 	- Setting the Enemy initial location
 	- Setting the Enemy speed
+
 - The update method for the Enemy
 	- Updates the Enemy location
 	- Handles collision with the Player
@@ -49,8 +56,11 @@ More specifically, in the **Player** class, I needed to implement the following 
 	- Loading the image by setting this.sprite to the appropriate image in the image folder
 	- Setting the Player initial location
 	- Setting the Enemy speed
+
 - The update method for the Player
+
 - The render method for the Player
+
 - The handleInput method, which should receive user input, allowedKeys (the key which was pressed) and move the player according to that input. In particular:
 	- Left key should move the player to the left, right key to the right, up should move the player up and down should move the player down.
 	- Recall that a player cannot move off the screen.
