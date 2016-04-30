@@ -16,11 +16,11 @@ At a minimum I needed to implement the Player and Enemy classes found inside *ap
 
 ## Folders and files
 This repository contains css, images, and js folders, as well as an index.html and a README.md file. 
-The *css* folder contains a *style.css* file.
-- The *images* folder contains the png image files, which are used when displaying the game. The images for the player and enemy character are going to be loaded from this folder.
-- The *js* folder also contains the app engine needed to run the game, the app.js which contains the Enemy and Player classes, and a resources.js file which is used to load images. 
+- The *css* folder contains a *style.css* file.
+- The *images* folder contains the png image files, which are used when displaying the game. The images for the player and enemy character are loaded from this folder.
+- The *js* folder contains the app engine needed to run the game, app.js which contains the Enemy and Player classes, and a resources.js file used to load images. 
 - index.html - opening index.html should load the game
-- README.md should contain instructions on how to load and play the game (you will need to add those instructions).
+- README.md contains instructions on how to load and play the game.
 
 ## The Enemy class found in app.js
 
