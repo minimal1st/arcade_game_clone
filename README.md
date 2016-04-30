@@ -12,19 +12,19 @@ In this classic arcade game, you have a Player and Enemies (Bugs). The goal of t
 
 ### Minimum tasks that needed to be completed to meet expectations:
 
-At a minimum I needed to implement the Player and Enemy classes found inside *app.js*, using Object-Oriented JavaScript. 
+At a minimum I needed to implement the Player and Enemy classes found inside *app.js*, using **Object-Oriented JavaScript**. 
 
 ## Folders and files
 This repository contains css, images, and js folders, as well as an index.html and a README.md file. 
-- The *css* folder contains a *style.css* file.
-- The *images* folder contains the png image files, which are used when displaying the game. The images for the player and enemy character are loaded from this folder.
-- The *js* folder contains the app engine needed to run the game, app.js which contains the Enemy and Player classes, and a resources.js file used to load images. 
-- index.html - opening index.html should load the game
-- README.md contains instructions on how to load and play the game.
+- The **css** folder contains a *style.css* file.
+- The **images** folder contains the png image files, which are used when displaying the game. The images for the player and enemy character are loaded from this folder.
+- The **js** folder contains the app engine needed to run the game, app.js which contains the Enemy and Player classes, and a resources.js file used to load images. 
+- **index.html** - opening index.html should load the game
+- **README.md** contains instructions on how to load and play the game.
 
 ## The Enemy class found in app.js
 
-More specifically, in the Enemy class, I needed to implement the following functions:
+More specifically, in the **Enemy** class, I needed to implement the following functions:
 - The Enemy function, which initiates the Enemy by:
 	- Loading the image by setting this.sprite to the appropriate image in the image folder
 	- Setting the Enemy initial location
@@ -35,7 +35,7 @@ More specifically, in the Enemy class, I needed to implement the following funct
 
 ## The Player class found in app.js
 
-More specifically, in the Player class, I needed to implement the following functions:
+More specifically, in the **Player** class, I needed to implement the following functions:
 - The Player function, which initiates the Player by:
 	- Loading the image by setting this.sprite to the appropriate image in the image folder
 	- Setting the Player initial location
