@@ -1,0 +1,19 @@
+/* 
+margin and padding set to 0 for everything
+points div absolutely positioned near canvas
+*/
+* { 
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+body { background-color: black; }
+#points { 
+	color:gray;
+	font-family: sans-serif;
+	position:absolute;
+	top: 29px;
+	width: 100%;
+	margin: 0 auto;
+}

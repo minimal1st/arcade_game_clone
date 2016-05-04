@@ -22,14 +22,11 @@ Once the player collides with an enemy, the game is reset and the player moves b
 
 Once the player reaches the water the game is won.
 
-### Minimum tasks that needed to be completed to meet expectations:
-
-At a minimum I needed to implement the Player and Enemy classes found inside *app.js*, using **Object-Oriented JavaScript**. 
-
 ## Folders and files
 This repository contains css, images, and js folders, as well as an index.html and a README.md file. 
 
 - The **css** folder contains a *style.css* file.
+- The **sounds* folder contains the two sounds used in the game.
 - The **images** folder contains the png image files, which are used when displaying the game. The images for the player and enemy character are loaded from this folder.
 - The **js** folder contains the app engine needed to run the game, app.js which contains the Enemy and Player classes, and a resources.js file used to load images. 
 - **index.html** - opening index.html should load the game
@@ -37,7 +34,7 @@ This repository contains css, images, and js folders, as well as an index.html a
 
 ## The Enemy class found in app.js
 
-More specifically, in the **Enemy** class, I needed to implement the following functions:
+In the **Enemy** class, I needed to implement the following functions:
 
 - The Enemy function, which initiates the Enemy by:
 	- Loading the image by setting this.sprite to the appropriate image in the image folder
@@ -50,7 +47,7 @@ More specifically, in the **Enemy** class, I needed to implement the following f
 
 ## The Player class found in app.js
 
-More specifically, in the **Player** class, I needed to implement the following functions:
+In the **Player** class, I needed to implement the following functions:
 
 - The Player function, which initiates the Player by:
 	- Loading the image by setting this.sprite to the appropriate image in the image folder
