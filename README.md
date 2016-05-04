@@ -45,7 +45,7 @@ In the **Player** class, I needed to implement the following functions:
 	- If a player reaches the water the game should be reset approprately
 	- Handles collision with the Player
 
-## The Player class found in app.js
+## Playing the game
 	To play the game, simply open index.html in a browser.
 
 ### License 
